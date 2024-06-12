@@ -1,0 +1,253 @@
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .categories .box-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media (max-width:1199px) and (min-width:768px) {
+    .div-100 .div-50 h3 {
+        font-size: 1.5rem;
+    }
+
+    .div-100 .div-50 p.para {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .main-d-flex {
+        padding-right: 0;
+    }
+
+    .categoriestwo .box-container {
+
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr)) !important;
+
+    }
+
+    .categories .box-container {
+
+        grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+
+    }
+
+    /* .categoriestwo .box-container .box img{
+        width: 25rem;
+        height: 25rem;
+    } */
+    .blog .imagdiv {
+        width: 306px;
+    }
+
+    i.fa-solid.fa-calendar {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1024px) {
+    .header .navbar {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: 0.5rem;
+        background-color: #fff;
+    }
+
+    .header .navbar.active {
+        transition: .2s linear;
+        right: 2rem;
+    }
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .navbar a {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .blog .blog-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .div-100 {
+        padding: 3% 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-50 {
+        width: 100%;
+    }
+
+    .div-100 .div-50 p.para,
+    .main-d-flex {
+        padding: 0;
+    }
+
+    .categories .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    }
+
+    /* .header .navbar {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: 0.5rem;
+        background-color: #fff;
+    }
+
+    .header .navbar.active {
+        transition: .2s linear;
+        right: 2rem;
+    }
+
+    .header .navbar a {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    } */
+
+
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .features .box-container .box img {
+        height: 11rem;
+    }
+
+    .left-logo {
+        width: 50px;
+    }
+
+    .blog .blog-content h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:767px) {
+    .home .right-img {
+        width: 568px;
+        height: 310px;
+    }
+
+    .div-50 img {
+        width: 100%;
+    }
+
+    .text-contetnt {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .categoriestwo {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5.5rem;
+        justify-content: center;
+    }
+
+    .categoriestwo .img-info {
+
+        left: 5%;
+    }
+
+    .featuresone .width50 {
+        left: 0;
+    }
+
+    .featurestwo .contetnt {
+        padding-bottom: 25px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    i.fa-solid.fa-calendar {
+        font-size: 16px;
+    }
+
+    .blog .blog-mb-conaianter {
+        display: block;
+        padding: 15px;
+    }
+
+    .blog .blog-mb-conaianter .imagdiv {
+
+        width: auto;
+
+    }
+
+}
+
+@media (max-width:575px) {
+    .home .right-img {
+        display: none;
+    }
+
+    .home .content {
+        width: 100%;
+    }
+
+    .home {
+        padding-bottom: 25px;
+    }
+
+    .blog .blog-sm-conaianter {
+        display: block;
+        width: 100%;
+    }
+
+    .blog .blog-mb-conaianter {
+        width: 100%;
+    }
+
+    .nobg .div-100,
+    .features.featurestwo {
+        padding: 0;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 45%;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+}
