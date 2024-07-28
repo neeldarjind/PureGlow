@@ -212,6 +212,14 @@
 
     }
 
+    .footer .box-container .box h3 {
+        font-size: 3em;
+    }
+
+    .footer .box-container .box .links,
+    .footer .box-container .box p {
+        font-size: 2.3em;
+    }
 }
 
 @media (max-width:575px) {
